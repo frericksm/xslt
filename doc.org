@@ -5,4 +5,4 @@
 * https://stackoverflow.com/questions/5876382/using-xslt-to-copy-all-nodes-in-xml-with-support-for-special-cases
 * http://www.java2s.com/Code/XML/XSLT-stylesheet/matchelementwithcertainvalue.htm
 * https://www.data2type.de/xml-xslt-xslfo/xslt/xslt-referenz/attribute/
-* https://stackoverflow.com/questions/615875/xslt-how-to-change-an-attribute-value-during-xslcopyhttps://stackoverflow.com/questions/615875/xslt-how-to-change-an-attribute-value-during-xslcopy
+* https://stackoverflow.com/questions/615875/xslt-how-to-change-an-attribute-value-during-xslcopy
