@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:fn_old="http://www.w3.org/2004/10/xpath-functions" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:isp="http://www.sk.de/isp/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:rep="internal" sv:name="Auslaufende Preisbefreiung CALL">
+				<sv:property sv:name="jcr:primaryType" sv:type="Name">
+					<sv:value>isp:workflowProcess</sv:value>
+				</sv:property>
+				<sv:property sv:name="jcr:uuid" sv:type="String">
+					<sv:value>3cf3eaad-d5b5-4021-909d-713ec49e7033</sv:value>
+				</sv:property>
+				<sv:property sv:name="isp:keywords" sv:type="String">
+					<sv:value>Auslaufende Preisbefreiung CALL</sv:value>
+				</sv:property>
+				<sv:property sv:name="isp:lastModified" sv:type="Date">
+					<sv:value>2014-02-27T17:51:51.373+01:00</sv:value>
+				</sv:property>
+				<sv:node sv:name="isp:formalParameters">
+					<sv:property sv:name="jcr:primaryType" sv:type="Name">
+						<sv:value>isp:formalParameters</sv:value>
+					</sv:property>
+					<sv:property sv:name="jcr:uuid" sv:type="String">
+						<sv:value>c90e8716-d7f5-46b1-86e1-f13846a05026</sv:value>
+					</sv:property>
+					<sv:node sv:name="angebot">
+						<sv:property sv:name="jcr:primaryType" sv:type="Name">
+							<sv:value>isp:formalParameter</sv:value>
+						</sv:property>
+						<sv:property sv:name="jcr:uuid" sv:type="String">
+							<sv:value>a1e2ec54-695a-4468-b444-b87c3929b794</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:hidden" sv:type="Boolean">
+							<sv:value>false</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:required" sv:type="Boolean">
+							<sv:value>false</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:dataTyp" sv:type="String">
+							<sv:value>STRING</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:parameterDirection" sv:type="String">
+							<sv:value>IN</sv:value>
+						</sv:property>
+					</sv:node>
+					<sv:node sv:name="protokollId">
+						<sv:property sv:name="jcr:primaryType" sv:type="Name">
+							<sv:value>isp:formalParameter</sv:value>
+						</sv:property>
+						<sv:property sv:name="jcr:uuid" sv:type="String">
+							<sv:value>ebf6127c-5ff3-4ec1-a528-a260f7686773</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:hidden" sv:type="Boolean">
+							<sv:value>false</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:required" sv:type="Boolean">
+							<sv:value>false</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:dataTyp" sv:type="String">
+							<sv:value>STRING</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:parameterDirection" sv:type="String">
+							<sv:value>IN</sv:value>
+						</sv:property>
+					</sv:node>
+					<sv:node sv:name="auftragsnummer">
+						<sv:property sv:name="jcr:primaryType" sv:type="Name">
+							<sv:value>isp:formalParameter</sv:value>
+						</sv:property>
+						<sv:property sv:name="jcr:uuid" sv:type="String">
+							<sv:value>1bbe40d5-1970-47af-a622-15baf52b8e71</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:hidden" sv:type="Boolean">
+							<sv:value>false</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:required" sv:type="Boolean">
+							<sv:value>false</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:dataTyp" sv:type="String">
+							<sv:value>STRING</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:parameterDirection" sv:type="String">
+							<sv:value>IN</sv:value>
+						</sv:property>
+					</sv:node>
+					<sv:node sv:name="ereignisId">
+						<sv:property sv:name="jcr:primaryType" sv:type="Name">
+							<sv:value>isp:formalParameter</sv:value>
+						</sv:property>
+						<sv:property sv:name="jcr:uuid" sv:type="String">
+							<sv:value>86dd0af5-a696-450b-91c7-504ff705b614</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:hidden" sv:type="Boolean">
+							<sv:value>false</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:required" sv:type="Boolean">
+							<sv:value>false</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:dataTyp" sv:type="String">
+							<sv:value>STRING</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:parameterDirection" sv:type="String">
+							<sv:value>IN</sv:value>
+						</sv:property>
+					</sv:node>
+					<sv:node sv:name="reaktionscode">
+						<sv:property sv:name="jcr:primaryType" sv:type="Name">
+							<sv:value>isp:formalParameter</sv:value>
+						</sv:property>
+						<sv:property sv:name="jcr:uuid" sv:type="String">
+							<sv:value>f71bf69d-d541-4b32-a52e-1e5a79b8e532</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:hidden" sv:type="Boolean">
+							<sv:value>false</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:required" sv:type="Boolean">
+							<sv:value>false</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:dataTyp" sv:type="String">
+							<sv:value>STRING</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:parameterDirection" sv:type="String">
+							<sv:value>OUT</sv:value>
+						</sv:property>
+					</sv:node>
+					<sv:node sv:name="angebot-rahmen">
+						<sv:property sv:name="jcr:primaryType" sv:type="Name">
+							<sv:value>isp:formalParameter</sv:value>
+						</sv:property>
+						<sv:property sv:name="jcr:uuid" sv:type="String">
+							<sv:value>f122c1a1-4ed0-4dbf-baa9-9ca2c49fa488</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:hidden" sv:type="Boolean">
+							<sv:value>false</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:required" sv:type="Boolean">
+							<sv:value>false</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:dataTyp" sv:type="String">
+							<sv:value>STRING</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:parameterDirection" sv:type="String">
+							<sv:value>IN</sv:value>
+						</sv:property>
+					</sv:node>
+					<sv:node sv:name="bemerkung">
+						<sv:property sv:name="jcr:primaryType" sv:type="Name">
+							<sv:value>isp:formalParameter</sv:value>
+						</sv:property>
+						<sv:property sv:name="jcr:uuid" sv:type="String">
+							<sv:value>9b301688-6a63-4e14-8f60-af6ae63855b4</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:hidden" sv:type="Boolean">
+							<sv:value>false</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:required" sv:type="Boolean">
+							<sv:value>false</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:dataTyp" sv:type="String">
+							<sv:value>STRING</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:parameterDirection" sv:type="String">
+							<sv:value>OUT</sv:value>
+						</sv:property>
+					</sv:node>
+				</sv:node>
+				<sv:node sv:name="isp:activities">
+					<sv:property sv:name="jcr:primaryType" sv:type="Name">
+						<sv:value>isp:activities</sv:value>
+					</sv:property>
+					<sv:property sv:name="jcr:uuid" sv:type="String">
+						<sv:value>85108ec3-44bb-42b7-aadf-7477a46e6ad2</sv:value>
+					</sv:property>
+					<sv:node sv:name="Aufruf">
+						<sv:property sv:name="jcr:primaryType" sv:type="Name">
+							<sv:value>isp:activity</sv:value>
+						</sv:property>
+						<sv:property sv:name="jcr:uuid" sv:type="String">
+							<sv:value>c675966a-0fd5-47e7-b3f2-0933112ddfc7</sv:value>
+						</sv:property>
+						<sv:node sv:name="isp:transitions">
+							<sv:property sv:name="jcr:primaryType" sv:type="Name">
+								<sv:value>isp:transitions</sv:value>
+							</sv:property>
+							<sv:property sv:name="jcr:uuid" sv:type="String">
+								<sv:value>c45e310c-c689-4366-b44d-a9f43b9cefc7</sv:value>
+							</sv:property>
+						</sv:node>
+						<sv:node sv:name="isp:activityBody">
+							<sv:property sv:name="jcr:primaryType" sv:type="Name">
+								<sv:value>isp:activityBodyImplementation</sv:value>
+							</sv:property>
+							<sv:property sv:name="jcr:uuid" sv:type="String">
+								<sv:value>38a0acdf-2d40-4aab-806b-3c344c4221d0</sv:value>
+							</sv:property>
+							<sv:property sv:name="isp:implementationReference" sv:type="Reference">
+								<sv:value>986ee923-e7bf-4aeb-a60b-64caf82d9282</sv:value>
+							</sv:property>
+							<sv:property sv:name="isp:implementationType" sv:type="String">
+								<sv:value>SUB_FLOW</sv:value>
+							</sv:property>
+							<sv:node sv:name="isp:dataMappings">
+								<sv:property sv:name="jcr:primaryType" sv:type="Name">
+									<sv:value>isp:dataMappings</sv:value>
+								</sv:property>
+								<sv:property sv:name="jcr:uuid" sv:type="String">
+									<sv:value>226e70c8-3031-4dc2-a039-547a1030e7e7</sv:value>
+								</sv:property>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>1b8e2876-2633-49a2-9e71-b6f976f0efa8</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>angebot</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>angebot</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>33daf1d0-29a0-46ea-bb64-75cfd1189439</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>protokollId</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>protokollId</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>2b36fac5-181d-4b17-b292-d6ed726236d7</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>auftragsnummer</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>auftragsnummer</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>c834716d-5846-4203-a593-b37ee7ccbe13</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>ereignisId</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>ereignisId</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>c9622863-5aa9-480a-b49a-7b6526a63afc</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>reaktionscode</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>reaktionscode</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>136b00f2-6d5c-45c2-ba74-88209aa73e78</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>angebot-rahmen</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>angebot-rahmen</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>23c6b5f0-1750-4184-944c-9545b68c3bea</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>bemerkung</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>bemerkung</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>6911e88a-34dc-4e0c-bfb0-d10222b87c03</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>fz-map</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>{"BEZUGS_OBJEKT_TYP_INFO_ZU_EREIGNIS" (int 35) 
+
+"BEZUGS_OBJEKT_TYP_KUNDE_ZU_EREIGNIS" (int 50) 
+
+"BEZUGS_OBJEKT_TYP_TEXT_ZU_EREIGNIS" (int 200) 
+
+"BPRV_KONTO_ERLAUBT" "HS_NORMAL_PR" 
+
+"ALTER_MAX" (int 29)
+
+"PREISBEFREIUNG_MAX" (int 2)
+
+"EREIGNIS_DATUM" ""
+
+"SEMESTER_PFLICHT" false
+
+"SEMESTER_DEFAULT" "1"
+
+"WERT_LEER" ""
+
+}</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>d3f6dc23-f5f8-495f-9a63-73699b1a49e0</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>rc-map</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>{"RC_OK" "99" "RC_ERROR" "00"}</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>dc927f0c-637c-42e7-8495-1012dbfaa019</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>lizenzschluessel</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>"cb97308c1f6add82c92cc0e7dc40f207"</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>3506a012-8c52-4fef-a874-790ebb281cd9</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>debug</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>false</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>ce20e50d-4dbe-4c6b-bbda-a96eb5af41a6</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>status-map</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>#{"Schüler" "Auszubildender" "Student" "Bundesfreiwilligendienstleistender"}</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>1d13e6bb-e26b-4e8f-b8a0-bca6705bee7f</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>statusGK-map</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>#{"Schüler" "Auszubildender" "Student"}</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>cbdf9048-80a5-4c84-8791-47318b4756c1</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>geko-map</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>{ 
+
+"GEN_KONSTR_TYP" "SFK-BERUFLIC"
+
+
+
+"GEN_KONSTR_KLASSE" "GENKON-PERS"
+
+
+
+"BEZUGS_OBJ_TYP" "50"
+
+
+
+"FZ_SCHULE_BIS" "0018"
+
+
+
+"FZ_SCHULE_ABSCHLUSS" "0019"
+
+
+
+"FZ_AUSBILDUNG_BIS" "0005"
+
+
+
+"FZ_AUSBILDUNG_BERUF" "0004"
+
+
+
+"FZ_STUDIUM_BIS" "0012"
+
+
+
+"FZ_STUDIUM_RICHTUNG" "0013"
+
+
+
+"FZ_STUDIUM_SEMESTER" "0014"
+
+
+
+"FZ_STUDIUM_ABSCHLUSS" "0020"
+
+}</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>1f89bb21-d5d2-48d2-ada7-f4f83213fbba</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>wv-map</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>{ 
+
+"WV_KONDITIONS_KAT" "KBS-WV-ZEILE"
+
+
+
+"WV_BPR_NAME" "PG.STANDARD"
+
+
+
+"WV_FELD" "WIEDERVORL."
+
+
+
+"WV_ELEMENTART_DATUM" "WV-ZUORD-DTM"
+
+
+
+"WV_ELEMENTART_IOB_ID" "WV-IOB-ID"
+
+
+
+"WV_ELEMENTART_WERT_IOB_ID" "PS1000000000"
+
+
+
+"WV_ELEMENTART_TEXT" "WV-TEXT-INDV"
+
+
+
+"WV_ELEMENTART_WERT_TEXT" "Ablauf Preisbefreiung"
+
+
+
+"WV_VERTRAG_BEARBEITUNG" "KB-WV-PFLEGE"
+
+
+
+"WV_VERTRAG_FELD" "WIEDERVORL."
+
+}</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>6a7f58b1-955e-4d8e-a64f-8a99eb0eb5a8</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>ausbildung-map</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>{
+
+"Dienstleistungsberuf" "GASTRONOMIE"
+
+
+
+"Ernährungsberuf" "IT"
+
+
+
+"gastgewerblicher Beruf" "GASTRONOMIE"
+
+
+
+"Gesundheitsfachberuf" "GESUNDHEIT"
+
+
+
+"handwerklicher Beruf" "HANDWERK"
+
+
+
+"Heilberuf" "GESUNDHEIT"
+
+
+
+"IT-Beruf" "IT"
+
+
+
+"juristischer Beruf" "SONSTIGES"
+
+
+
+"kaufmännischer Beruf" "KAUFMÄNNISCH"
+
+
+
+"kreativer Beruf" "MEDIEN"
+
+
+
+"Laborberuf" "SONSTIGES"
+
+
+
+"landwirtschaftlicher Beruf" "LANDWIRTSCH."
+
+
+
+"Medienberuf" "MEDIEN"
+
+
+
+"naturwissenschaftlicher Beruf" "NATURWISSEN"
+
+
+
+"pädagogischer Beruf" "ERZIEHUNG"
+
+
+
+"publizistischer Beruf" "SONSTIGES"
+
+
+
+"rechtsberatender Beruf" "SONSTIGES"
+
+
+
+"steuerberatender Beruf" "SONSTIGES"
+
+
+
+"technischer Beruf" "ET/IT"
+
+
+
+"wirtschaftsberatender Beruf" "SONSTIGES"
+
+
+
+"sonstiger Beruf" "SONSTIGES"
+
+}</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>3cd74f11-aa2b-48f4-b390-398ded6b0823</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>studienabschluss-map</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>{
+
+"Diplom" "DIPLOM" 
+
+"Magister" "MAGISTER" 
+
+"Lehramt" "1. STAATSEXM" 
+
+"Bachelor" "BACHELOR" 
+
+"Master" "MASTER" 
+
+"1. Staatsexamen" "1. STAATSEXM" 
+
+"2. Staatsexamen" "2. STAATSEXM" 
+
+}</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>23117108-a811-4cdb-8f45-04f4138430eb</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>studienrichtung-map</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>{
+
+"Architektur" "ARCHITEKTUR" 
+
+"Gesellschaft und Soziales" "SOZIAL­WISS." 
+
+"Gesundheitswesen" "MEDIZIN" 
+
+"Humanwissenschaften" "SONSTIGES" 
+
+"Informatik" "SONSTIGES" 
+
+"Ingenieurwissenschaften" "SONSTIGES" 
+
+"Kunst und Musik" "SONSTIGES" 
+
+"Lehramt" "SONSTIGES" 
+
+"Mathe/Naturwissenschaften" "SONSTIGES" 
+
+"Medizin" "SONSTIGES" 
+
+"Natur und Umwelt" "SONSTIGES" 
+
+"Rechtswissenschaften" "SONSTIGES" 
+
+"Sportwissenschaften" "SONSTIGES" 
+
+"Sprachen und Kultur" "SONSTIGES" 
+
+"Wirtschaftswissenschaften" "SONSTIGES" 
+
+"Sonstiges" "SONSTIGES" 
+
+}</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>12529881-152a-4aea-8846-c5b518681684</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>reporting-map</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>{
+
+"ERROR_FACHLICH" {
+
+  "LOG" {
+
+    "ACTIVE" true
+
+  }
+
+  "EMAIL" {
+
+    "ACTIVE" true
+
+    "FROM" "isp94059421@r.de"
+
+    "RECIPIENTS" #{"m.m@r.de"}
+
+  }
+
+}  
+
+"ERROR_TECHNISCH" {
+
+  "LOG" {
+
+    "ACTIVE" true
+
+  }
+
+  "EMAIL" {
+
+    "ACTIVE" true
+
+    "FROM" "isp94059421@r.de"
+
+    "RECIPIENTS" #{"m.m@r.de"}
+
+  }
+
+} 
+
+"OK" {
+
+  "LOG" {
+
+    "ACTIVE" false
+
+  }
+
+  "EMAIL" {
+
+    "ACTIVE" true
+
+    "FROM" "isp94059421@r.de"
+
+    "RECIPIENTS" #{"m.m@r.de"}
+
+  }
+
+}
+
+"PMS_DEBUG" {
+
+  "LOG" {
+
+    "ACTIVE" true
+
+  }
+
+  "EMAIL" {
+
+    "ACTIVE" true
+
+    "FROM" "isp94059421@r.de"
+
+    "RECIPIENTS" #{"m.m@r.de"}
+
+  }
+
+} 
+
+}</sv:value>
+									</sv:property>
+								</sv:node>
+								<sv:node sv:name="isp:dataMapping">
+									<sv:property sv:name="jcr:primaryType" sv:type="Name">
+										<sv:value>isp:dataMapping</sv:value>
+									</sv:property>
+									<sv:property sv:name="jcr:uuid" sv:type="String">
+										<sv:value>cf06616d-0f6a-48b3-8dcd-0687586299ac</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:formalParameter" sv:type="String">
+										<sv:value>formular-map</sv:value>
+									</sv:property>
+									<sv:property sv:name="isp:actualParameter" sv:type="String">
+										<sv:value>{
+
+ "FORMULAR_LABEL_KONTONUMMER" "Kontonummer" 
+
+
+
+"FORMULAR_LABEL_STATUS" "Status" 
+
+
+
+"FORMULAR_LABEL_KONDITION_BIS" "Bis"  
+
+
+
+"FORMULAR_LABEL_SCHULABSCHLUSS" "Schulabschluss" 
+
+
+
+"FORMULAR_LABEL_AUSBILDUNGSBERUF" "Ausbildungsberuf" 
+
+
+
+"FORMULAR_LABEL_STUDIENRICHTUNG" "Studienrichtung" 
+
+
+
+"FORMULAR_LABEL_SEMESTER" "Semester" 
+
+
+
+"FORMULAR_LABEL_STUDIENABSCHLUSS" "Studienabschluss"
+
+}</sv:value>
+									</sv:property>
+								</sv:node>
+							</sv:node>
+						</sv:node>
+					</sv:node>
+				</sv:node>
+				<sv:node sv:name="isp:properties">
+					<sv:property sv:name="jcr:primaryType" sv:type="Name">
+						<sv:value>isp:properties</sv:value>
+					</sv:property>
+					<sv:property sv:name="jcr:uuid" sv:type="String">
+						<sv:value>a79c68ff-bd28-47a2-9a74-8956bd56e0ad</sv:value>
+					</sv:property>
+					<sv:node sv:name="de-fi-isp-prozess-scope-private">
+						<sv:property sv:name="jcr:primaryType" sv:type="Name">
+							<sv:value>isp:property</sv:value>
+						</sv:property>
+						<sv:property sv:name="jcr:uuid" sv:type="String">
+							<sv:value>6adf4149-bb89-4fd2-a403-de0e8b95d2e6</sv:value>
+						</sv:property>
+						<sv:property sv:name="isp:value" sv:type="String">
+							<sv:value>true</sv:value>
+						</sv:property>
+					</sv:node>
+				</sv:node>
+				<sv:node sv:name="isp:variables">
+					<sv:property sv:name="jcr:primaryType" sv:type="Name">
+						<sv:value>isp:variables</sv:value>
+					</sv:property>
+					<sv:property sv:name="jcr:uuid" sv:type="String">
+						<sv:value>988984de-bc30-4f4a-87a0-a56b35a9f8dc</sv:value>
+					</sv:property>
+				</sv:node>
+			</sv:node>

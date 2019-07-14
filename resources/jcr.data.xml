@@ -1,0 +1,9 @@
+<MyXml>
+  <Data1>
+    <Node1>1234</Node1>
+    <Node2>abc</Node2>
+    <Node3>gfdf</Node3>
+    <Node10000>more text</Node10000>
+</Data1>
+
+</MyXml>
