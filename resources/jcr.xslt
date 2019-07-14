@@ -17,7 +17,7 @@
     </xsl:copy>
   </xsl:template>
 
-<xsl:template match="self">
+<xsl:template match="@name[parent::node]">
   <xsl:attribute name="name">
     <xsl:value-of select="'your value here'"/>
   </xsl:attribute>
